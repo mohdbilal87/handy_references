@@ -1,0 +1,8 @@
+---
+  title: "Sed Commands"
+---
+  
+  * creating correct-ish json. adding comma to end of each line and enclosing square brackets.
+    + sed -i '$!s/$/,/' filename
+    + sed -i '1s/^/[/' filename
+    + sed -i '$s/$/]/' filename

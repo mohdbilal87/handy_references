@@ -1,0 +1,17 @@
+---
+  title: "R Packages"
+---
+  
+  * data.table
+  * tidyr
+  * dplyr
+  * ggplot
+  * lubridate
+  * diffobj
+  * visdat/naninar
+  * caret/resample
+  * htmlwidgets
+  * shiny/shinydashboard
+  * opencpu/fiery/routr/reqres
+  * RMarkdown/flexdashboard
+  * Package development/ devtools

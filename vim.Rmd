@@ -1,0 +1,54 @@
+---
+  title: "Vim Commands"
+---
+
+  * vim -O file1 file 2 <=> open multiple files vertical split
+  * set nu & :set nonu <=> show/hide line numbers
+  * :set hlsearch followed by * <=>to highlight current word
+  * :%s/pattern//ng <=> number of occurrences of pattern in file
+  * ctrl+w+w <=> jump across windows(nerdtree window to file and back)
+  * u <=> undo last change(s) (this works till a file is saved)
+  * ctrl-R <=> redo last changes(s)
+  * :Tab /pattern <=> align using tabular plugin. useful for displaying in tabular format and JS formatting
+  * Vim movements
+      + w   move to beginning of next word
+      + b   move to previous beginning of word
+      + e   move to end of word
+      + W   move to beginning of next word after a whitespace
+      + B   move to beginning of previous word before a whitespace
+      + E   move to end of word before a whitespace
+      + (above movements can be preceded by a count; e.g. 4j moves down 4 lines)
+      +
+      + 0   move to beginning of line
+      + $   move to end of line
+      + _   move to first non-blank character of the line
+      + g_  move to last non-blank character of the line
+      +
+      + gg  move to first line
+      + G   move to last line
+      +
+      + ngg move to n'th line of file (n is a number; 12gg moves to line 12)
+      + nG  move to n'th line of file (n is a number; 12G moves to line 12)
+      +
+      + H/M/L   move to top/middle/bottom of screen
+      +
+      + Ctrl-O  jump to last (older) cursor position
+      + Ctrl-I  jump to next cursor position (after Ctrl-O)
+      +
+      + n   next matching search pattern
+      + N   previous matching search pattern
+      + \*   next whole word under cursor
+      + \#   previous whole word under cursor
+      + g*  next matching search (not whole word) pattern under cursor
+      + g#  previous matching search (not whole word) pattern under cursor
+      + gd  go to definition/first occurrence of the word under cursor
+      + 
+      + %   jump to matching bracket { } [ ] ( )
+      +
+      + fX  to next 'X' after cursor, in the same line (X is any character)
+      + FX  to previous 'X' before cursor (f and F put the cursor on X)
+      + tX  til next 'X' (similar to above, but cursor is before X)
+      + TX  til previous 'X'
+      + ;   repeat above, in same direction
+      + ,   repeat above, in reverse direction
+  

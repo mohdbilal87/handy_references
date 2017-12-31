@@ -1,0 +1,24 @@
+name: "Tools_of_the_Trade"
+output_dir: "."
+navbar:
+  title: "Tools of the Trade"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Vim"
+      href: vim.html
+    - text: "Bash"
+      href: bash.html
+    - text: "awk"
+      href: awk.html
+    - text: "sed"
+      href: sed.html
+    - text: "Screen"
+      href: screen.html
+    - text: "GIT"
+      href: git.html
+    - text: "R Packages"
+      href: r_tools.html
+output:
+  html_document:
+    theme: flatly

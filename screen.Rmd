@@ -1,0 +1,17 @@
+---
+  title: "Screen Commands"
+---
+  
+  * screen -S session_name <=> create new session
+  * screen -r session_name <=> attach a session
+  * screen -rd session_name <=> attach to existing session
+  * C-a d <=> deattach a session
+  * C-a S <=> split the display horizontally
+  * C-a | <=> split the display vertically
+  * C-a X <=> remove the current region
+  * C-a Q <=> remove all regions except the current one
+  * C-a tab <=> switch input focus to the next region
+  * C-a c <=> create new shell within a region
+  * C-a :resize N <=> resize the region horizontally (N is size)
+  * C-a :resize N <=> resize the region horizontally
+  * C-a k <=> Destroy current window

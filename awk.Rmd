@@ -1,0 +1,9 @@
+---
+  title: "Awk Commands"
+---
+  
+  * awk -F'|' '{print NF; exit}' filename <=> number of columns in a file
+  * awk -F'|' '{print $NF}' File1 <=> last field of the row
+  * awk '{print gsub(/ins_itm_id/,"")}' ncedi_20170811_data.json > cluster_size.txt  <=> number of word 'ins_itm_id' in a file
+  * awk 'END{print NR-1}' RS="ins_itm_id" result.json
+  * cat preprocessed/part-* | awk -F';' '{print $(3)}' | sort | uniq <=> uniq values in 3rd field

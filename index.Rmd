@@ -1,0 +1,9 @@
+---
+  title: "Look here for making your life easy."
+---
+  
+  - __Name:__ Bilal
+  - __Ocupation:__ "Student/Novice Programmer"
+  - __Hobbies:__ Wasting time. 
+
+  These pages are intended as repository for handy functions for data analysis/software development and maybe more.  

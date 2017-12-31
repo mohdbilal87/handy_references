@@ -1,0 +1,13 @@
+---
+  title: "Bash Commands"
+---
+  
+  * shuf -n 5 -e ../../source_dir | xargs -i cp {} target_dir/ <=> randomly copy 5 files to another directory
+  * find . -name "part-0002*" -exec rm {} \; <=> remove files with pattern
+  * grep -o -P 'designYear.{0,6}' items.json | uniq <=> last 6 unique characters each line / get n characters after a match
+  * cat /data/ratos/req1lines.json  | grep -o '......$' | uniq <=> file occurrences of word per line in a file
+  * tar cjvf sample_clusters.bz2 ./* <=> compress all files in current directory
+  * bunzip2 sample_clusters.bz2 <=> uncompress
+  * tar -xvf sample_clusters <=> uncompress
+  * top -U s2sbfa <=> show all processes by username
+  * grep -e '_cd\":1017864' -e  '_cd\":1017880' -e '_cd\":1017865' -e '_cd\":1017871' texas.json <=> OR operator grep
